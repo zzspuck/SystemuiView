@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetLeft="-6dp"
+    android:insetTop="-6dp"
+    android:insetRight="-6dp"
+    android:insetBottom="-6dp">
+
+    <shape android:shape="oval">
+        <solid android:color="@color/bg_color_seek_bar_thumb" />
+
+        <stroke
+            android:width="1dp"
+            android:color="#55AAAAAA" />
+        <size
+            android:width="@dimen/dp28"
+            android:height="@dimen/dp28" />
+    </shape>
+
+</inset>

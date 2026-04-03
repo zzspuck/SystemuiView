@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- DateWeekView -->
+    <declare-styleable name="DateWeekView">
+        <!-- 日期格式枚举 -->
+        <attr name="dateFormat" format="enum">
+            <enum name="yearMonthDayWeek" value="0" />
+            <enum name="yearMonthDay" value="1" />
+            <enum name="monthDayWeek" value="2" />
+            <enum name="monthDay" value="3" />
+        </attr>
+
+        <!-- 排列方向 -->
+        <attr name="dateOrientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+
+        <!-- 字间距/行间距 -->
+        <attr name="datePadding" format="dimension" />
+        <!-- 是否考虑地区-->
+        <attr name="aboutLocale" default="true" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="AnalogClock">
+        <!-- 表盘基础属性 -->
+        <attr name="dialColor" format="color" />
+        <attr name="hourColor" format="color" />
+        <attr name="minuteColor" format="color" />
+        <attr name="secondColor" format="color" />
+        <attr name="handWidth" format="dimension" />
+        <attr name="showSecondHand" format="boolean" />
+        <attr name="showAmPm" format="boolean" />
+        <attr name="smoothAnimation" format="boolean" />
+        <attr name="dialBackground" format="reference|color" />
+        <attr name="previewTime" format="string" />
+        <attr name="handShadow" format="boolean" />
+
+        <!-- 文本属性 -->
+        <attr name="timeTextColor" format="color|reference" />
+        <attr name="timeTextSize" format="dimension" />
+        <attr name="amPmColor" format="color|reference" />
+        <attr name="amPmTextSize" format="dimension" />
+    </declare-styleable>
+
+    <!-- GradientClock
+     | 属性名 | 类型 | 说明 | **********************************-|
+     | gradient_start_color | color | 渐变起始颜色 |
+     | gradient_center_color | color | 渐变中间颜色（可选） |
+     | gradient_end_color | color | 渐变结束颜色 |
+     | gradient_angle | float | 渐变角度（0-360） |
+     | gradient_enable | boolean | 渐变开关（true/false） |
+     -->
+    <declare-styleable name="GradientClock">
+        <!-- 颜色属性 -->
+        <attr name="gradient_start_color" format="color" />
+        <attr name="gradient_end_color" format="color" />
+        <attr name="gradient_center_color" format="color" />
+
+        <!-- 方向属性 -->
+        <attr name="gradient_angle" format="float">
+            <!--<annotation name="androidx.constraintlayout.widget.ConstraintLayout$ConstraintAttribute" value="format=float" />
+       --> </attr>
+
+        <!-- 新增开关属性 -->
+        <attr name="gradient_enable" format="boolean" />
+    </declare-styleable>
+
+    <!-- Allow for custom attribs to be added to a shortcut button -->
+    <declare-styleable name="ShortcutButton">
+        <!-- intent to start when button is click -->
+        <attr name="intent" format="string" />
+        <!-- intent to start when a long press has happened -->
+        <attr name="longIntent" format="string" />
+        <!-- start the intent as a broad cast instead of an activity if true-->
+        <attr name="broadcast" format="boolean" />
+        <!-- Alpha value to used when in selected state.  Defaults 1f  -->
+        <attr name="selectedAlpha" format="float" />
+        <!-- Alpha value to used when in un-selected state.  Defaults 0.7f  -->
+        <attr name="unselectedAlpha" format="float" />
+        <!-- icons to be rendered when in selected state -->
+        <attr name="selectedIcon" format="reference" />
+    </declare-styleable>
+
+    <!-- custom AutoLinearLayout-->
+    <declare-styleable name="AutoLinearLayout">
+        <!-- 列数 -->
+        <attr name="columnCount" format="integer" />
+        <!-- 行间距 -->
+        <attr name="rowSpace" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="CenterDrawableTextView">
+        <attr name="leftDrawable" format="reference" />
+        <attr name="rightDrawable" format="reference" />
+        <attr name="topDrawable" format="reference" />
+        <attr name="bottomDrawable" format="reference" />
+
+        <attr name="leftDrawableWidth" format="dimension" />
+        <attr name="rightDrawableWidth" format="dimension" />
+        <attr name="topDrawableWidth" format="dimension" />
+        <attr name="bottomDrawableWidth" format="dimension" />
+
+        <attr name="leftDrawableHeight" format="dimension" />
+        <attr name="rightDrawableHeight" format="dimension" />
+        <attr name="topDrawableHeight" format="dimension" />
+        <attr name="bottomDrawableHeight" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="AcAirFlowView">
+        <!-- 行数 -->
+        <attr name="row" format="integer" />
+        <!-- 列数 -->
+        <attr name="column" format="integer" />
+        <!-- 原点 坐标 X轴-->
+        <attr name="originX" format="integer" />
+        <!-- 原点 坐标 Y轴-->
+        <attr name="originY" format="integer" />
+        <!-- 空调 出风颜色 -->
+        <attr name="airColor" format="reference|color" />
+        <!-- 空调 出风 曲线 X轴 偏移量-->
+        <attr name="offsetX" format="float" />
+        <!-- 空调 出风 曲线 Y轴 偏移量-->
+        <attr name="offsetY" format="float" />
+        <!-- 原点 资源 Drawable ID -->
+        <attr name="drawableOriginPoint" format="reference" />
+        <!-- 显示辅助线 -->
+        <attr name="showLine" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundImageView">
+        <!-- radius -->
+        <attr name="radius" format="integer" />
+    </declare-styleable>
+
+    <attr name="lightIconTheme" format="reference" />
+    <attr name="darkIconTheme" format="reference" />
+
+    <declare-styleable name="TonedIcon">
+        <!--<attr name="backgroundColor" format="integer" />-->
+        <attr name="fillColor" format="integer" />
+        <attr name="singleToneColor" format="integer" />
+        <attr name="homeHandleColor" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomRecyclerView">
+        <attr name="scrollbarWidth" format="dimension" />
+        <attr name="scrollbarHeight" format="dimension" />
+        <attr name="scrollbarRightMargin" format="dimension" />
+        <attr name="scrollbarColor" format="color" />
+        <attr name="scrollbarCornerRadius" format="dimension" />
+        <attr name="scrollbarAutoHideDelay" format="integer" />
+    </declare-styleable>
+
+
+    <declare-styleable name="CustomExpandableListView">
+        <!-- 滚动条宽度（px） -->
+        <attr name="listScrollbarWidth" format="dimension" />
+        <!-- 滚动条高度（px） -->
+        <attr name="listScrollbarHeight" format="dimension" />
+        <!-- 滚动条右边距（px） -->
+        <attr name="listScrollbarRightMargin" format="dimension" />
+        <!-- 滚动条颜色 -->
+        <attr name="listScrollbarColor" format="color" />
+        <!-- 滚动条圆角半径（px） -->
+        <attr name="listScrollbarCornerRadius" format="dimension" />
+        <!-- 滚动条自动隐藏延迟时间（毫秒） -->
+        <attr name="listScrollbarAutoHideDelay" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="DisclaimerTimePickerView">
+        <attr name="epvTextSize" format="dimension"/>
+        <attr name="epvTextColor" format="color"/>
+        <attr name="epvTextPadding" format="dimension"/>
+        <attr name="epvTextMaxScale" format="float"/>
+        <attr name="epvTextMinAlpha" format="float"/>
+        <attr name="epvRecycleMode" format="boolean"/>
+        <attr name="epvMaxShowNum" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="ShortcutButtonView">
+        <attr name="iconSize" format="dimension" />
+        <attr name="iconMarginBottom" format="dimension" />
+        <attr name="textSize" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="NewsRadioGroup">
+        <attr name="normalTextSize" format="float" />
+        <attr name="selectedTextSize" format="float" />
+        <attr name="normalTextColor" format="color|reference" />
+        <attr name="selectedTextColor" format="color|reference" />
+        <attr name="checkDrawable" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="SwitchText" >
+        <attr name="checked" format="boolean" />
+        <attr name="textName" format="reference|string" />
+        <attr name="textInfo" format="reference|string" />
+        <attr name="rrBg" format="reference|color" />
+        <attr name="tipsBg" format="reference|color" />
+        <attr name="auto" format="boolean" />
+
+        <attr name="disabledTextColor" format="color|reference" />
+        <attr name="disabledAlpha" format="float" />
+    </declare-styleable>
+
+    <!--SlideSwitch-->
+    <declare-styleable name="SlideSwitch">
+        <attr name="bgWidth" format="dimension" />
+        <attr name="bgHeight" format="dimension" />
+        <attr name="bgOn" format="reference" />
+        <attr name="bgOff" format="reference" />
+        <attr name="switchThumbOn" format="reference" />
+        <attr name="switchThumbOff" format="reference" />
+        <attr name="isAuto" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleProgressView">
+        <attr name="ringRadius" format="dimension"/>
+        <attr name="ringWidth" format="dimension"/>
+        <attr name="ringColor" format="color"/>
+        <attr name="ringBgColor" format="color"/>
+        <attr name="ringProgress" format="integer"/>
+        <attr name="ringMax" format="integer"/>
+        <attr name="ringTextSize" format="dimension"/>
+        <attr name="ringTextColor" format="color"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="SlideRevealView">
+        <attr name="maskDrawable" format="reference" />
+        <attr name="gradientWidth" format="dimension" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@mipmap/ic_hvac_defrost_rear_dis" android:state_enabled="false" />
+    <item android:drawable="@mipmap/ic_hvac_defrost_rear_sel" android:state_selected="true" />
+    <item android:drawable="@mipmap/ic_hvac_defrost_rear_nor" />
+</selector>

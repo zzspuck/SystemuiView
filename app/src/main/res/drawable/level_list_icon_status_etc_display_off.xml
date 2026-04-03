@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@mipmap/icon_status_etc_inactive_display_off"
+        android:maxLevel="0" />
+    <item
+        android:drawable="@mipmap/icon_status_etc_error_display_off"
+        android:maxLevel="1" />
+    <item
+        android:drawable="@mipmap/icon_status_etc_off_display_off"
+        android:maxLevel="2" />
+    <item
+        android:drawable="@mipmap/icon_status_etc_activation_display_off"
+        android:maxLevel="3" />
+</level-list>

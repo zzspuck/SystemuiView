@@ -1,0 +1,171 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 通用窗口动画 淡入淡出 -->
+    <style name="Animation_Window_Fade_InOut">
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+
+    <style name="Animation_Window_Fade_InOut_360">
+        <item name="android:windowEnterAnimation">@anim/fade_in_360</item>
+        <item name="android:windowExitAnimation">@anim/fade_out_360</item>
+    </style>
+
+    <style name="Animation_Window_Fade_InOut_200">
+        <item name="android:windowEnterAnimation">@anim/fade_in_200</item>
+        <item name="android:windowExitAnimation">@anim/fade_out_200</item>
+    </style>
+
+    <style name="Animation_Window_Fade_InOut_100">
+        <item name="android:windowEnterAnimation">@anim/fade_in_100</item>
+        <item name="android:windowExitAnimation">@anim/fade_out_100</item>
+    </style>
+
+    <style name="Animation_Window_Fade_InOut_50">
+        <item name="android:windowEnterAnimation">@anim/fade_in_50</item>
+        <item name="android:windowExitAnimation">@anim/fade_out_50</item>
+    </style>
+
+    <!-- 窗口动画：底部淡出 200ms-->
+    <style name="Animation_Window_Slide_Out">
+        <item name="android:windowExitAnimation">@anim/slide_out_down_200</item>
+    </style>
+
+    <!-- 窗口动画：顶部淡入+底部淡出 -->
+    <style name="Animation_Window_Slide_InOut">
+        <item name="android:windowEnterAnimation">@anim/slide_in_up_500</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_down_360</item>
+    </style>
+
+    <!-- 窗口动画：顶部淡入+顶部淡出 -->
+    <style name="Animation_Window_Slide_InOut_500">
+        <item name="android:windowEnterAnimation">@anim/slide_in_up_500</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_up_500</item>
+    </style>
+
+    <!-- 窗口动画：顶部淡入+顶部淡出 -->
+    <style name="Animation_Window_Slide_InOut_800">
+        <item name="android:windowEnterAnimation">@anim/slide_in_up_800</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_up_800</item>
+    </style>
+
+    <!-- 系统图标样式 -->
+    <style name="SystemIconStyle">
+        <item name="android:layout_width">@dimen/dp51</item>
+        <item name="android:layout_height">@dimen/dp51</item>
+        <item name="android:layout_marginEnd">@dimen/dp30</item>
+        <item name="android:background">@drawable/selector_status_icon_selected_bg</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:visibility">visible</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="textStyle">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="ShortcutPanel_DrivingMode">
+        <item name="android:width">@dimen/dp100</item>
+        <item name="android:height">@dimen/dp36</item>
+        <item name="android:button">@null</item>
+        <item name="android:layout_marginTop">@dimen/dp6</item>
+        <item name="android:clickable">true</item>
+        <item name="android:drawablePadding">@dimen/dp5</item>
+        <item name="android:paddingStart">@dimen/dp8</item>
+        <item name="android:textColor">@color/text_color_shortcut_panel</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="voiceDialogTheme" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+
+    <!-- 进出动画 -->
+    <style name="EditWindowAnimation">
+        <item name="android:windowEnterAnimation">@anim/edit_mode_exit</item>
+        <item name="android:windowExitAnimation">@anim/edit_mode_enter</item>
+    </style>
+
+    <!-- DrawableIconView -->
+    <style name="CenterDrawableTextView">
+        <item name="android:layout_width">@dimen/dp178</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@null</item>
+        <item name="android:paddingTop">@dimen/dp16</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/text_color_shortcut_buttons_title</item>
+    </style>
+
+    <!-- Audio -->
+    <style name="AudioSourceItems">
+        <item name="android:layout_width">@dimen/dp650</item>
+        <item name="android:layout_height">@dimen/dp118</item>
+        <item name="android:layout_marginTop">@dimen/dp23</item>
+        <item name="android:layout_marginBottom">@dimen/dp23</item>
+        <item name="android:drawablePadding">@dimen/dp25</item>
+        <item name="android:paddingStart">@dimen/dp30</item>
+        <item name="android:button">@null</item>
+        <item name="android:background">@drawable/selector_audio_source_type_button_bg</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@drawable/selector_text_color_audio_source</item>
+        <item name="android:textSize">35sp</item>
+    </style>
+
+    <!-- SystemStatusView -->
+    <style name="SystemStatusItems">
+        <item name="android:layout_width">@dimen/dp700</item>
+        <item name="android:layout_height">@dimen/dp115</item>
+        <item name="android:maxWidth">@dimen/dp700</item>
+        <item name="android:drawablePadding">@dimen/dp20</item>
+        <item name="android:paddingEnd">@dimen/dp20</item>
+        <item name="android:background">@drawable/shape_system_status_item_bg</item>
+        <item name="android:gravity">start|center_vertical</item>
+        <item name="android:textColor">@drawable/selector_text_color_audio_source</item>
+        <item name="android:textSize">35sp</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:clickable">false</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:focusable">false</item>
+    </style>
+
+    <style name="SystemStatusItemsLayout">
+        <item name="android:layout_width">@dimen/dp700</item>
+        <item name="android:maxWidth">@dimen/dp700</item>
+        <item name="android:layout_height">@dimen/dp115</item>
+    </style>
+
+    <style name="SystemStatusIconStyle">
+        <item name="android:layout_width">@dimen/dp60</item>
+        <item name="android:layout_height">@dimen/dp60</item>
+        <item name="android:visibility">visible</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginStart">@dimen/dp0</item>
+    </style>
+
+    <style name="AirFlowPosBarStyle">
+        <item name="android:maxHeight">@dimen/dp2</item>
+        <item name="android:paddingStart">@dimen/dp3</item>
+        <item name="android:paddingEnd">@dimen/dp0</item>
+        <item name="android:clickable">false</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:focusable">false</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:progressDrawable">@drawable/shape_seek_bar_media_progress</item>
+        <item name="android:thumb">@drawable/shape_seek_bar_thumb_bg_normal</item>
+        <item name="android:thumbOffset">@dimen/dp0</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+
+</resources>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.systemui_view.ShortcutPanelView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/panel_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layerType="hardware"
+    android:splitMotionEvents="false"
+    android:background="@android:color/darker_gray"
+    android:tag=".view.shortcut.ShortcutPanelView">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/shortcut_title_default"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp60"
+        android:layout_marginTop="@dimen/dp15"
+        android:paddingStart="@dimen/dp40"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="gone"
+        tools:ignore="RtlSymmetry">
+
+        <TextView
+            android:id="@+id/tv_quick_control"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_quick_control"
+            android:textColor="@color/text_color_shortcut_panel"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <ImageView
+            android:id="@+id/iv_edit_button"
+            android:layout_width="@dimen/dp45"
+            android:layout_height="@dimen/dp45"
+            android:layout_marginEnd="@dimen/dp140"
+            android:contentDescription="编辑按钮"
+            android:padding="@dimen/dp30"
+            android:src="@mipmap/ic_shortcut_panel_edit"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/iv_settings_button"
+            android:layout_width="@dimen/dp45"
+            android:layout_height="@dimen/dp45"
+            android:layout_marginEnd="@dimen/dp35"
+            android:contentDescription="跳转设置界面按钮"
+            android:padding="@dimen/dp30"
+            android:src="@mipmap/ic_shortcut_panel_settings"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/shortcut_title_edit"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp60"
+        android:layout_marginTop="@dimen/dp15"
+        android:paddingStart="@dimen/dp40"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="RtlSymmetry">
+
+        <TextView
+            android:id="@+id/tv_edit_complete"
+            android:layout_width="@dimen/dp120"
+            android:layout_height="@dimen/dp35"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/selector_bg_color_shortcut_button"
+            android:gravity="center"
+            android:text="@string/text_quick_control_edit_complete"
+            android:textColor="@color/text_color_shortcut_panel"
+            android:textSize="18sp"
+            android:layout_marginLeft="40dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_edit_remake"
+            android:layout_width="@dimen/dp140"
+            android:layout_height="@dimen/dp35"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/selector_bg_color_shortcut_button"
+            android:gravity="center"
+            android:text="@string/text_quick_control_edit_remake"
+            android:textColor="@color/text_color_shortcut_panel"
+            android:textSize="18sp"
+            android:layout_marginLeft="190dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_edit_cancel"
+            android:layout_width="@dimen/dp140"
+            android:layout_height="@dimen/dp35"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="350dp"
+            android:background="@drawable/selector_bg_color_shortcut_button"
+            android:gravity="center"
+            android:text="@string/text_quick_control_edit_cancel"
+            android:textColor="@color/text_color_shortcut_panel"
+            android:textSize="18sp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <RadioGroup
+        android:id="@+id/rg_driving_mode"
+        android:layout_width="170dp"
+        android:layout_height="260dp"
+        android:background="@drawable/shape_bg_shortcut_panel_button_nor2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="vertical"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="60dp"
+        android:paddingStart="@dimen/dp6"
+        android:paddingEnd="@dimen/dp6"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/tv_driving_mode_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp8"
+            android:paddingBottom="@dimen/dp2"
+            android:text="@string/driving_mode"
+            android:textColor="@color/text_color_shortcut_panel"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/tv_mode_eco"
+            style="@style/ShortcutPanel_DrivingMode"
+            android:layout_width="@dimen/dp155"
+            android:layout_height="@dimen/dp36"
+            android:background="@drawable/selector_driving_mode_eco"
+            android:drawableStart="@mipmap/ic_shortcut_driving_mode_eco"
+            android:text="@string/eco"
+            tools:ignore="HardcodedText,RtlSymmetry" />
+
+        <RadioButton
+            android:id="@+id/tv_mode_normal"
+            style="@style/ShortcutPanel_DrivingMode"
+            android:layout_width="@dimen/dp155"
+            android:layout_height="@dimen/dp36"
+            android:background="@drawable/selector_driving_mode_normal"
+            android:drawableStart="@mipmap/ic_shortcut_driving_mode_normal"
+            android:text="@string/normal"
+            tools:ignore="HardcodedText,RtlSymmetry" />
+
+        <RadioButton
+            android:id="@+id/tv_mode_sport"
+            style="@style/ShortcutPanel_DrivingMode"
+            android:layout_width="@dimen/dp155"
+            android:layout_height="@dimen/dp36"
+            android:background="@drawable/selector_driving_mode_sport"
+            android:checked="true"
+            android:drawableStart="@mipmap/ic_shortcut_driving_mode_sport"
+            android:text="@string/sport"
+            tools:ignore="HardcodedText,RtlSymmetry" />
+
+        <RadioButton
+            android:id="@+id/tv_mode_snow"
+            style="@style/ShortcutPanel_DrivingMode"
+            android:layout_width="@dimen/dp155"
+            android:layout_height="@dimen/dp36"
+            android:background="@drawable/selector_driving_mode_snow"
+            android:drawableStart="@mipmap/ic_shortcut_driving_mode_snow"
+            android:text="@string/snow"
+            tools:ignore="HardcodedText,RtlSymmetry" />
+
+        <RadioButton
+            android:id="@+id/tv_mode_mudl"
+            style="@style/ShortcutPanel_DrivingMode"
+            android:layout_width="@dimen/dp155"
+            android:layout_height="@dimen/dp36"
+            android:background="@drawable/selector_driving_mode_mud"
+            android:drawableStart="@mipmap/ic_shortcut_driving_mode_mudl"
+            android:text="@string/mud"
+            tools:ignore="HardcodedText,RtlSymmetry" />
+        
+    </RadioGroup>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleView"
+        android:layout_width="540dp"
+        android:layout_height="280dp"
+        app:layout_constraintTop_toTopOf="@+id/rg_driving_mode"
+        app:layout_constraintBottom_toBottomOf="@+id/rg_driving_mode"
+        app:layout_constraintStart_toEndOf="@+id/rg_driving_mode"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="10dp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/dp48"
+        android:src="@mipmap/ic_shortcut_panel_slide_bar"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</com.example.systemui_view.ShortcutPanelView>

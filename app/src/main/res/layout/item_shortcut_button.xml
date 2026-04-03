@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.systemui_view.ShortcutButtonView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/shortcut_button_view"
+    android:layout_width="@dimen/dp184"
+    android:layout_height="75dp"
+    tools:ignore="SpUsage"
+    android:background="@drawable/shape_bg_shortcut_panel_button_nor2"
+    />

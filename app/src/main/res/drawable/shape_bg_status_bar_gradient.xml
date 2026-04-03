@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <size
+        android:width="@dimen/status_bar_width"
+        android:height="@dimen/status_bar_height" />
+
+    <gradient
+        android:angle="270"
+        android:endColor="@color/bg_color_status_bar_end"
+        android:startColor="@color/bg_color_status_bar_start" />
+</shape>

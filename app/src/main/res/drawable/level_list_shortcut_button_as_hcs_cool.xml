@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@mipmap/ic_shortcut_button_as_hcs_cool_off"
+        android:maxLevel="0" />
+    <item
+        android:drawable="@mipmap/ic_shortcut_button_as_hcs_cool_high"
+        android:maxLevel="1" />
+    <item
+        android:drawable="@mipmap/ic_shortcut_button_as_hcs_cool_mid"
+        android:maxLevel="2" />
+    <item
+        android:drawable="@mipmap/ic_shortcut_button_as_hcs_cool_low"
+        android:maxLevel="3" />
+    <item
+        android:drawable="@mipmap/ic_shortcut_button_as_hcs_cool_error"
+        android:maxLevel="99" />
+
+</level-list>

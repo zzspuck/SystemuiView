@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 圆角矩形主体 -->
+    <item
+        android:width="@dimen/dp10"
+        android:height="@dimen/dp300"
+        android:bottom="@dimen/dp294"
+        android:gravity="bottom">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/bg_analog_clock_hand_second" />
+            <corners android:radius="@dimen/dp18" />
+            <padding
+                android:bottom="@dimen/dp2"
+                android:left="@dimen/dp2"
+                android:right="@dimen/dp2"
+                android:top="@dimen/dp2" />
+            <stroke
+                android:width="@dimen/dp1"
+                android:color="@color/bg_analog_clock_hand_stroke" />
+        </shape>
+    </item>
+</layer-list>

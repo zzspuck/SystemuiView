@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:width="@dimen/dp50"
+        android:height="@dimen/dp250"
+        android:bottom="@dimen/dp230"
+        android:gravity="bottom">
+        <shape android:shape="rectangle">
+
+            <solid android:color="@color/bg_analog_clock_hand_hour" />
+
+            <corners android:radius="@dimen/dp60" />
+
+            <padding
+                android:bottom="@dimen/dp2"
+                android:left="@dimen/dp2"
+                android:right="@dimen/dp2"
+                android:top="@dimen/dp2" />
+            <stroke
+                android:width="@dimen/dp1"
+                android:color="@color/bg_analog_clock_hand_stroke" />
+            <size
+                android:width="@dimen/dp50"
+                android:height="@dimen/dp238" />
+
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.SystemUI" parent="@android:style/Theme.DeviceDefault.Light">
+
+        <!-- Needed for MediaRoute chooser system -->
+        <item name="*android:isLightTheme">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 全局字体设置 推荐用 font 资源 （API 26+） -->
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <!-- 或使用 typeface（低版本兼容，但不推荐） -->
+        <!-- <item name="android:typeface">serif</item> -->
+    </style>
+
+    <style name="Theme.SystemUI.Light">
+
+        <!-- Needed for MediaRoute chooser global -->
+        <item name="*android:isLightTheme">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 全局字体设置 推荐用 font 资源 （API 26+） -->
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <!-- 或使用 typeface（低版本兼容，但不推荐） -->
+        <!-- <item name="android:typeface">serif</item> -->
+    </style>
+
+    <style name="Theme.SystemUI.Dialog.Alert" parent="@android:style/Theme.DeviceDefault.Light.Dialog.Alert" />
+
+
+
+    <style name="anim_cover_exit">
+        <item name="android:windowEnterAnimation">@null</item>
+        <item name="android:windowExitAnimation">@anim/cover_hide</item>
+    </style>
+
+    <style name="slide_rg_1290_90">
+        <item name="android:layout_width">1290dp</item>
+        <item name="android:layout_height">@dimen/dp90</item>
+    </style>
+
+    <style name="slide_radioGroup" parent="slide_rg_1290_90">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:button">@null</item>
+        <item name="android:textSize">42sp</item>
+        <item name="android:background">@color/radio_group_bg</item>
+        <item name="normalTextColor">@color/radio_text_def</item>
+        <item name="selectedTextColor">@color/radio_text</item>
+    </style>
+
+    <style name="base_slide_radiobutton">
+        <item name="android:gravity">center</item>
+        <item name="android:button">@null</item>
+        <item name="android:textSize">42sp</item>
+        <item name="android:textColor">@drawable/selector_menu_textcolor_bg</item>
+        <item name="android:background">@drawable/selector_link_switch</item>
+    </style>
+
+    <style name="radio_btn_273_75" parent="base_slide_radiobutton">
+        <item name="android:layout_width">273dp</item>
+        <item name="android:layout_height">@dimen/dp75</item>
+    </style>
+
+    <style name="base_width_height_match">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="switch_text" parent="base_width_height_match">
+        <item name="android:background">@drawable/shape_system_gps_win</item>
+    </style>
+
+    <style name="display_style_switch">
+        <item name="android:layout_width">@dimen/dp90</item>
+        <item name="android:layout_height">@dimen/dp85</item>
+        <item name="android:gravity">center</item>
+        <item name="bgWidth">@dimen/dp72</item>
+        <item name="bgHeight">@dimen/dp45</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="base_width_height">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="fragment_text_base" parent="base_width_height">
+        <item name="android:singleLine">false</item>
+        <item name="android:ellipsize">marquee</item>
+    </style>
+    <style name="TextMain" parent="fragment_text_base">
+        <item name="android:textSize">@dimen/dp27</item>
+        <item name="android:textColor">@color/act_radio_text</item>
+    </style>
+
+    <style name="TextNote" parent="fragment_text_base">
+        <item name="android:textSize">@dimen/dp21</item>
+        <item name="android:textColor">@color/act_radio_text</item>
+    </style>
+
+    <style name="circle_view">
+        <item name="ringRadius">@dimen/dp150</item>
+        <item name="ringWidth">@dimen/dp12</item>
+        <item name="ringColor">@color/blue_dayblue</item>
+        <item name="ringBgColor">@color/dialog_bg</item>
+        <item name="ringProgress">0</item>
+        <item name="ringMax">3</item>
+        <item name="ringTextSize">@dimen/dp98</item>
+        <item name="ringTextColor">@color/act_radio_text</item>
+    </style>
+
+    <style name="text_font56_singleline" parent="fragment_text_base">
+        <item name="android:textSize">@dimen/dp35</item>
+        <item name="android:textColor">@color/act_radio_text</item>
+    </style>
+</resources>

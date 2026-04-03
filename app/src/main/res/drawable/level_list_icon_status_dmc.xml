@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@mipmap/icon_status_dmc_normal"
+        android:maxLevel="0" />
+    <item
+        android:drawable="@mipmap/icon_status_dmc_error"
+        android:maxLevel="1" />
+    <item
+        android:drawable="@mipmap/icon_status_dmc_off"
+        android:maxLevel="2" />
+    <item
+        android:drawable="@mipmap/icon_status_dmc_off"
+        android:maxLevel="3" />
+    <item
+        android:drawable="@mipmap/icon_status_dmc_warning"
+        android:maxLevel="4" />
+    <item
+        android:drawable="@mipmap/icon_status_dmc_error"
+        android:maxLevel="5" />
+</level-list>

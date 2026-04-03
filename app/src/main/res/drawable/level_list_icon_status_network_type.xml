@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@mipmap/icon_status_network_type_2g"
+        android:maxLevel="1" />
+    <item
+        android:drawable="@mipmap/icon_status_network_type_3g"
+        android:maxLevel="2" />
+    <item
+        android:drawable="@mipmap/icon_status_network_type_4g"
+        android:maxLevel="4" />
+    <item
+        android:drawable="@mipmap/icon_status_network_type_5g"
+        android:maxLevel="5" />
+
+</level-list>

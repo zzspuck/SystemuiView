@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@mipmap/icon_shortcut_volume_vr_dis" android:state_enabled="false" />
+    <item android:drawable="@mipmap/icon_shortcut_volume_vr_sel" android:state_selected="true" />
+    <item android:drawable="@mipmap/icon_shortcut_volume_vr_pre" android:state_pressed="true" />
+    <item android:drawable="@mipmap/icon_shortcut_volume_vr_nor" />
+</selector>

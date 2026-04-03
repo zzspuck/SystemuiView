@@ -1,0 +1,463 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+
+    <string name="app_name">SystemUI</string>
+
+    <string name="app_label_systemui" translatable="false">HsSystemUI</string>
+
+    <string name="clock_am">AM</string>
+    <string name="clock_pm">PM</string>
+
+    <string name="text_recent_apps_no_running">No running applications recently</string>
+
+    <!-- HVAC BAR -->
+    <string name="text_hvac_temp_slider_bar_sync">SYNC</string>
+
+    <!-- ############################################################################### -->
+
+    <!-- BASE -->
+    <string name="text_toast_not_available">The function is not available</string>
+    <string name="text_tips_not_register">The listener has not been registered, the data observer object is empty</string>
+    <string name="text_unknown_device">Unknown Device </string>
+    <string name="text_system_dialog_button_cancel">Cancel</string>
+    <string name="text_system_dialog_button_ok">OK</string>
+    <string name="text_system_dialog_button_continue">Continue</string>
+
+    <!-- SYSTEM REBOOT -->
+    <string name="text_system_reboot_title">Do you want to reboot the system?</string>
+    <string name="text_system_reboot_button_cancel">Cancel</string>
+    <string name="text_system_reboot_button_ok">Continue</string>
+
+    <string name="text_disclaimer_tips_confirm">OK</string>
+    <string name="text_disclaimer_language_title">Please select a language</string>
+    <string name="text_disclaimer_language_zh">中文</string>
+    <string name="text_disclaimer_language_en">English</string>
+
+    <!-- NAVIGATION BAR -->
+    <string name="text_apps_list_is_full">A shortcut application has been added. Delete one and add it again</string>
+    <string name="text_loading_not_operation">Unable to operate while setting</string>
+    <string name="text_car_play_app_disable_tips">Are you sure jump to the device list page?</string>
+    <!-- -->
+    <string name="text_car_ux_res_vehicle_state1">When the HDS is connected, you  cannot operate Vehicle Settings</string>
+    <string name="text_car_ux_res_vehicle_state2">To operate the settings, vehicle power must be turned on</string>
+    <string name="text_car_ux_res_vehicle_state3">To change the Settings, you must be in Park (autos) or the parking brake on (manuals) &#038; the vehicle power on</string>
+    <string name="text_car_ux_res_vehicle_state4">This function is not available while the vehicle is in motion</string>
+
+    <!-- ************************** STATUS BAR ************************* -->
+    <!--  Wireless Charge   -->
+    <string name="text_wireless_charge_title">Charging Status</string>
+    <string name="text_wireless_charge_left">Left</string>
+    <string name="text_wireless_charge_right">Right</string>
+    <string name="text_wireless_charge_charging">Charging</string>
+    <string name="text_wireless_charge_standby">Standby</string>
+    <string name="text_wireless_charge_hardware_failure">Hardware Failure</string>
+    <string name="text_wireless_charge_abnormal_termination">Abnormal Termination</string>
+    <!-- tips -->
+    <string name="text_wireless_charge_tips_hardware_failure">Wireless Charging Hardware Failure Detected</string>
+    <string name="text_wireless_charge_tips_hardware_failure_left_right">Wireless charging hardware failure on both sides,unable to charge.</string>
+    <string name="text_wireless_charge_tips_hardware_failure_left">Left wireless charging hardware failure ,unable to charge.</string>
+    <string name="text_wireless_charge_tips_hardware_failure_right">Right wireless charging hardware failure ,unable to charge.</string>
+    <string name="text_wireless_charge_tips_charging_stopped">Wireless Charging Stopped</string>
+    <string name="text_wireless_charge_tips_any_foreign_objects">Please remove any foreign objects from the charging slots on both sides before recharging.</string>
+    <string name="text_wireless_charge_tips_any_foreign_objects_left">Please remove any foreign objects from the left charging slot before attempting to charge again.</string>
+    <string name="text_wireless_charge_tips_any_foreign_objects_right">Please remove any foreign objects from the right charging slot before attempting to charge again.</string>
+    <string name="text_wireless_charge_tips_caution">CAUTION</string>
+    <string name="text_wireless_charge_tips_caution_contents">Metal objects between charge pad and device to be charged will get hot and can burn you. Remove foreign objects from charge pad before charging device.</string>
+
+    <!-- Volume Setting -->
+    <string name="text_shortcut_volume_settings">Volume adjustment</string>
+    <string name="text_shortcut_volume_media">Media</string>
+    <string name="text_shortcut_volume_navi">Navi</string>
+    <string name="text_shortcut_volume_call">Call</string>
+    <string name="text_shortcut_volume_vr">Voice</string>
+
+    <!-- Audio Source -->
+    <string name="text_header_audio_source">Audio Source</string>
+    <string name="text_audio_source_title">Audio Source Change</string>
+    <string name="text_audio_source_bt">Bluetooth Headerio</string>
+    <string name="text_audio_source_usb">USB</string>
+    <string name="text_audio_source_ipod">iPod</string>
+    <string name="text_audio_source_apple_carplay">Apple Carplay</string>
+    <string name="text_audio_source_car_life">Baidu CarLife+</string>
+    <string name="text_audio_source_hi_car">HUAWEI HiCar</string>
+    <string name="text_audio_source_funn">Funn Audio</string>
+
+    <!-- Media Info -->
+    <string name="text_media_info_default">Media ID3 info</string>
+    <string name="text_media_info_no_device_connected">No Device Connected</string>
+    <string name="text_media_meta_data_id3_title">Title</string>
+    <string name="text_media_meta_data_id3_artist">Artist</string>
+
+    <!-- system status -->
+    <string name="text_system_status_title">System Status</string>
+    <string name="text_system_status_unread_message">Unread Message</string>
+    <string name="text_system_status_item_open">Open</string>
+    <string name="text_system_status_item_remove">Remove</string>
+    <!-- car_location -->
+    <string name="text_system_status_car_location">Vehicle GPS enabled</string>
+    <!-- car_mic -->
+    <string name="text_system_status_car_mic">Vehicle Microphone on</string>
+    <!-- car_camera -->
+    <string name="text_system_status_car_camera">Vehicle Camera turned on</string>
+    <!-- DMC -->
+    <string name="text_system_status_dms_sta_a">DMS and the Driver state is normal</string>
+    <string name="text_system_status_dms_sta_b">DMS error</string>
+    <string name="text_system_status_dms_sta_c">DMS is closed</string>
+    <string name="text_system_status_dms_sta_d">DMS is closed</string>
+    <string name="text_system_status_dms_sta_e">DMS operating normally, abnormal driver behavior</string>
+    <string name="text_system_status_dms_sta_f">Part of DMS functions were closed</string>
+
+    <!-- CRS-->
+    <string name="text_system_status_crs_uninstall">Bluetooth seat not properly installed, please check port</string>
+    <!-- CPD -->
+    <string name="text_system_status_cpd_normal">Child Detection System Normal</string>
+    <string name="text_system_status_cpd_off">Child Detection System Disabled</string>
+    <string name="text_system_status_cpd_error">Child Detection System Fault</string>
+    <string name="text_system_status_cpd_delay_alarm">Child System Delay Alert</string>
+
+    <!-- ETC -->
+    <string name="text_system_status_etc_not_activated">ETC is not activated</string>
+    <string name="text_system_status_etc_app">Please turn on ETC in App</string>
+    <string name="text_system_status_etc_mini_program">ETC is OFF. Please contact vehicle owner to turn on the function in ETC Mini-Program </string>
+    <string name="text_system_status_etc_error">ETC error</string>
+    <string name="text_system_status_etc_normal">ETC is normal</string>
+
+    <!-- CTM -->
+    <string name="text_ctm_system_off">OFF</string>
+    <string name="text_ctm_system_unavailable">Unavailable</string>
+    <string name="text_ctm_system_check_system">Check System</string>
+
+    <!-- phone battery-->
+    <string name="text_system_status_battery_no_info">No battery information</string>
+    <string name="text_system_status_battery_unknown">Battery level for unknown device</string>
+    <string name="text_system_status_battery_low">Phone\'s battery is critically low</string>
+    <string name="text_system_status_battery_phone">Battery level for <xliff:g id="PHONE_NAME">%1$s</xliff:g></string>
+    <!-- phone_sign -->
+    <string name="text_system_status_phone_sign">Phone\'s Signal strength</string>
+    <string name="text_system_status_phone_sign_name">Signal strength for <xliff:g id="PHONE_NAME">%1$s</xliff:g></string>
+    <string name="text_system_status_phone_no_sign">Signal strength unavailable</string>
+    <!-- bt -->
+    <string name="text_system_status_bt_connected"><xliff:g id="DEVICE_NAME">%1$s</xliff:g> is connected</string>
+    <!-- wireless_charging -->
+    <string name="text_system_status_wireless_charging">Wireless charging is active</string>
+    <!-- usb -->
+    <string name="text_system_status_usb_device"><xliff:g id="DEVICE_NAME">%1$s</xliff:g> is connected</string>
+    <string name="text_system_status_usb_unknown">USB device is connected</string>
+    <!-- WiFi_AP -->
+    <string name="text_system_status_wifi_ap_no_device">No devices are connected to WI-FI AP</string>
+    <string name="text_system_status_wifi_ap_device_1"><xliff:g id="DEVICE_NAME">%1$s</xliff:g> is connected</string>
+    <string name="text_system_status_wifi_ap_device_count"><xliff:g id="DEVICE_COUNT">%1$s</xliff:g> devices are connected to Wi-Fi AP</string>
+    <!-- WiFi-STA -->
+    <string name="text_system_status_wifi_sta_connected">Connected <xliff:g id="DEVICE_NAME">%1$s</xliff:g></string>
+    <!-- MOBILE -->
+    <string name="text_system_status_mobile_net_normal">Normal mobile communications network</string>
+    <string name="text_system_status_mobile_net_no_signal">No mobile network signal</string>
+    <!-- OTA -->
+    <string name="text_system_status_ota_info_0_new_version">New software version detected</string>
+    <string name="text_system_status_ota_info_1_downloading">Downloading software…</string>
+    <string name="text_system_status_ota_info_2_download_paused">Download paused</string>
+    <string name="text_system_status_ota_info_3_available">System update available</string>
+    <string name="text_system_status_ota_info_4_installing">Installing software…</string>
+    <string name="text_system_status_ota_info_5_ready">System update ready</string>
+    <string name="text_system_status_ota_info_6_needed">Update needed, contact dealer</string>
+    <string name="text_system_status_ota_info_7_error">Update error, contact dealer</string>
+    <string name="text_system_status_ota_info_8_connecting">Connecting network…</string>
+    <!-- GPS -->
+    <string name="text_system_status_gps">GPS not detected</string>
+
+    <!-- HVAC Error Tips -->
+    <!-- POWER IG OFF -->
+    <string name="text_hvac_tips_power_ig_off">Please turn on the vehicle power  to use the Climate Control</string>
+    <!-- AC TIMEOUT -->
+    <string name="text_hvac_tips_ac_timeout_active">Air conditioning system temporarily unavailable</string>
+
+    <!-- HVAC AQ -->
+    <string name="text_hvac_aq_value_none">−−</string>
+    <string name="text_hvac_aq_outside">Outside</string>
+    <string name="text_hvac_aq_pm25">PM2.5</string>
+    <string name="text_hvac_aq_outside_value">157</string>
+    <string name="text_hvac_aq_location">HanYang</string>
+    <string name="text_hvac_aq_inside">Inside</string>
+    <string name="text_hvac_aq_pm25_value">77</string>
+    <string name="text_hvac_aq_pm25_level_loading">Loading...</string>
+    <string name="text_hvac_aq_pm25_level_0">Good</string>
+    <string name="text_hvac_aq_pm25_level_1">Moderate</string>
+    <string name="text_hvac_aq_pm25_level_2">Unhealthy for Sensitive Groups</string>
+    <string name="text_hvac_aq_pm25_level_3">Unhealthy</string>
+    <string name="text_hvac_aq_pm25_level_4">Very Unhealthy</string>
+    <string name="text_hvac_aq_pm25_level_5">Hazardous</string>
+
+    <!-- AC mode tips -->
+    <string name="text_ac_mode_fault">Fault display mode</string>
+    <string name="text_ac_mode_sensor">Sensor value display mode</string>
+    <string name="text_ac_mode_custom">Custom display mode</string>
+    <string name="text_ac_mode_diagnosis">Self-diagnosis mode</string>
+    <string name="text_ac_mode_forced_drive">Forced drive mode</string>
+
+    <!-- HVAC AUTO OFF -->
+    <string name="text_hvac_auto_off">一 AUTO OFF 一</string>
+
+    <string name="notification_tab_alert">Fault Alert</string>
+    <string name="notification_tab_system">System</string>
+
+    <string name="notification_no_content">No Content</string>
+
+    <string name="notification_fold_up">Fold up</string>
+
+    <string name="location_title">Privacy</string>
+    <string name="gps_tips">GPS</string>
+    <string name="yesterday">Yesterday</string>
+    <!--    ⽂⾔提⽰-->
+    <string name="alarm_text_0x1">Please check ABS system</string>
+    <string name="alarm_text_0x2">Auto parking function failed</string>
+    <string name="alarm_text_0x3">Please close the door</string>
+    <string name="alarm_text_0x4">Please fasten your seat belt</string>
+    <string name="alarm_text_0x5">Please close the door and fasten your seat belt</string>
+    <string name="alarm_text_0x6">Transmission temperature high, please park in a safe place</string>
+    <string name="alarm_text_0x7">Please check transmission control system</string>
+    <string name="alarm_text_0x8">Transmission overheating, please park in a safe place for about 5 minutes</string>
+    <string name="alarm_text_0x9">Transmission function limited, please contact 4S store</string>
+    <string name="alarm_text_0xa">Transmission oil temperature high, please reduce speed</string>
+    <string name="alarm_text_0xb">Clutch temperature high, please reduce speed</string>
+    <string name="alarm_text_0xc">Please press the brake</string>
+    <string name="alarm_text_0xd">Vehicle sliding, please shift to P gear</string>
+    <string name="alarm_text_0xe">Transmission serious fault, please park in a safe place and contact 4S store</string>
+    <string name="alarm_text_0xf">Transmission fault</string>
+    <string name="alarm_text_0x10">Transmission overheating, please park in a safe place for about 5 minutes</string>
+    <string name="alarm_text_0x11">P gear fault, please contact 4S store</string>
+    <string name="alarm_text_0x12">Please press the brake until P gear is displayed</string>
+    <string name="alarm_text_0x13">Transmission temperature high, please park in a safe place</string>
+    <string name="alarm_text_0x14">Gear not in P position</string>
+    <string name="alarm_text_0x15">Please stop the vehicle before shifting to P gear</string>
+    <string name="alarm_text_0x16">Please start the engine before shifting in/out of P gear</string>
+    <string name="alarm_text_0x17">Please check brake system</string>
+    <string name="alarm_text_0x18">Parking slope too steep, please drive carefully</string>
+    <string name="alarm_text_0x19">Insufficient parking force</string>
+    <string name="alarm_text_0x1a">Please close the door</string>
+    <string name="alarm_text_0x1b">Tire pressure monitoring system fault, please contact after-sales support</string>
+    <string name="alarm_text_0x1c">Please close the door and fasten your seat belt</string>
+    <string name="alarm_text_0x1d">Please press the brake pedal when releasing the parking brake</string>
+    <string name="alarm_text_0x1e">Vehicle blowout, blowout control function activated, do not jerk the steering wheel, park on the side as soon as possible!</string>
+    <string name="alarm_text_0x1f">Vehicle cannot charge, please check charging equipment</string>
+    <string name="alarm_text_0x21">Electric drive system limited, please contact 4S store</string>
+    <string name="alarm_text_0x22">Power battery level too low, driving power limited</string>
+    <string name="alarm_text_0x23">Power battery level too low, air conditioning performance limited</string>
+    <string name="alarm_text_0x24">Battery overheating, please stop immediately and stay away from the vehicle</string>
+    <string name="alarm_text_0x25">Power battery fault, please contact 4S store</string>
+    <string name="alarm_text_0x26">Power battery level too low, vehicle power supply limited, please park on the side</string>
+    <string name="alarm_text_0x27">Power system fault, please contact 4S store</string>
+    <string name="alarm_text_0x28">Tire pressure sensor battery low, please contact 4S store</string>
+    <string name="alarm_text_0x29">ESP dynamic braking function failed</string>
+    <string name="alarm_text_0x2a">Transmission fault</string>
+    <string name="alarm_text_0x2b">Transmission anti-theft not matched</string>
+    <string name="alarm_text_0x2c">Please check electronic parking system</string>
+    <string name="alarm_text_0x2d">Please check power steering system</string>
+    <string name="alarm_text_0x2e">EPS angle not calibrated or initialized, please contact 4S store</string>
+    <string name="alarm_text_0x2f">Soft stop not learned</string>
+    <string name="alarm_text_0x30">Please check ESP system</string>
+    <string name="alarm_text_0x31">Electronic stability system off</string>
+    <string name="alarm_text_0x32">Please check airbag system</string>
+    <string name="alarm_text_0x33">Next maintenance due in %d days</string>
+    <string name="alarm_text_0x34">Next maintenance due in %s km</string>
+    <string name="alarm_text_0x35">Next maintenance due in %d days and %s km, please maintain as soon as possible</string>
+    <string name="alarm_text_0x36">Maintenance period exceeded, please maintain as soon as possible</string>
+    <string name="alarm_text_0x37">Please enable vehicle external power supply in central control display</string>
+    <string name="alarm_text_0x38">Please check engine oil level</string>
+    <string name="alarm_text_0x39">Cleaning fluid insufficient, please add in time</string>
+    <string name="alarm_text_0x3a">Fuel about to run out, please refuel</string>
+    <string name="alarm_text_0x3b">Low fuel, please refill fuel</string>
+    <string name="alarm_text_0x3c">Please check tire pressure monitoring system</string>
+    <string name="alarm_text_0x3d">Hill descent control function activated</string>
+    <string name="alarm_text_0x3e">Hill descent control function failed</string>
+    <string name="alarm_text_0x3f">Intelligent high-low beam system fault</string>
+    <string name="alarm_text_0x40">Cruise control activated</string>
+    <string name="alarm_text_0x41">Cruise control temporarily unavailable</string>
+    <string name="alarm_text_0x42">Vehicle starting, please pay attention to surrounding environment</string>
+    <string name="alarm_text_0x43">Waiting for start</string>
+    <string name="alarm_text_0x44">Please gently press accelerator to resume cruise control</string>
+    <string name="alarm_text_0x45">Accelerator pedal pressed, assisted driving cannot decelerate</string>
+    <string name="alarm_text_0x46">Speed exceeds function limit, will exit assisted driving</string>
+    <string name="alarm_text_0x47">Cruise control exited</string>
+    <string name="alarm_text_0x48">Please manually drive the vehicle</string>
+    <string name="alarm_text_0x49">System fault, cruise control temporarily unavailable</string>
+    <string name="alarm_text_0x4a">Please drive with caution</string>
+    <string name="alarm_text_0x4b">Lane centering assist activated</string>
+    <string name="alarm_text_0x4c">Lane centering assist temporarily unavailable</string>
+    <string name="alarm_text_0x4d">Lane centering assist exited</string>
+    <string name="alarm_text_0x4e">System fault, lane centering assist temporarily unavailable</string>
+    <string name="alarm_text_0x4f">Avoiding obstacle</string>
+    <string name="alarm_text_0x50">Please grip steering wheel firmly</string>
+    <string name="alarm_text_0x51">Please immediately take manual control, entering emergency stop</string>
+    <string name="alarm_text_0x52">Emergency stopping, please manually drive</string>
+    <string name="alarm_text_0x53">Lane centering assist exited, please manually drive</string>
+    <string name="alarm_text_0x54">Cruise control downgraded, please manually drive</string>
+    <string name="alarm_text_0x55">Lane centering assist upgraded</string>
+    <string name="alarm_text_0x56">You are pre-turning the steering wheel</string>
+    <string name="alarm_text_0x57">Forward collision warning system activated</string>
+    <string name="alarm_text_0x58">Forward collision warning system fault</string>
+    <string name="alarm_text_0x59">Forward collision warning system enabled</string>
+    <string name="alarm_text_0x5a">Forward collision warning system disabled</string>
+    <string name="alarm_text_0x5b">Automatic emergency braking system activated</string>
+    <string name="alarm_text_0x5c">Automatic emergency braking system fault</string>
+    <string name="alarm_text_0x5d">Automatic emergency braking system enabled</string>
+    <string name="alarm_text_0x5e">Automatic emergency braking system disabled</string>
+    <string name="alarm_text_0x5f">Lane departure system fault</string>
+    <string name="alarm_text_0x60">Emergency lane keeping system temporarily unavailable</string>
+    <string name="alarm_text_0x61">Speed limit assist system fault</string>
+    <string name="alarm_text_0x62">Vehicle ahead has started</string>
+    <string name="alarm_text_0x63">Please clean front-view camera</string>
+    <string name="alarm_text_0x64">Front-view camera temporarily unavailable</string>
+    <string name="alarm_text_0x65">Left front ultrasonic radar fault</string>
+    <string name="alarm_text_0x66">Left middle-front ultrasonic radar fault</string>
+    <string name="alarm_text_0x67">Right middle-front ultrasonic radar fault</string>
+    <string name="alarm_text_0x68">Right front ultrasonic radar fault</string>
+    <string name="alarm_text_0x69">Right front-side ultrasonic radar fault</string>
+    <string name="alarm_text_0x6a">Right rear-side ultrasonic radar fault</string>
+    <string name="alarm_text_0x6b">Right rear ultrasonic radar fault</string>
+    <string name="alarm_text_0x6c">Right middle-rear ultrasonic radar fault</string>
+    <string name="alarm_text_0x6d">Left middle-rear ultrasonic radar fault</string>
+    <string name="alarm_text_0x6e">Left rear ultrasonic radar fault</string>
+    <string name="alarm_text_0x6f">Left rear-side ultrasonic radar fault</string>
+    <string name="alarm_text_0x70">Left front-side ultrasonic radar fault</string>
+    <string name="alarm_text_0x71">Ultrasonic radar fault</string>
+    <string name="alarm_text_0x72">Low-speed emergency braking function activated</string>
+    <string name="alarm_text_0x73">Low-speed emergency braking function fault</string>
+    <string name="alarm_text_0x74">Accelerator pedal anti-misstep function activated</string>
+    <string name="alarm_text_0x75">Accelerator pedal anti-misstep function fault</string>
+    <string name="alarm_text_0x76">Front surround-view camera fault</string>
+    <string name="alarm_text_0x77">Rear surround-view camera fault</string>
+    <string name="alarm_text_0x78">Left surround-view camera fault</string>
+    <string name="alarm_text_0x79">Right surround-view camera fault</string>
+    <string name="alarm_text_0x7a">System fault, cruise control temporarily unavailable</string>
+    <string name="alarm_text_0x7b">Please immediately manually drive, entering safe stop</string>
+    <string name="alarm_text_0x7c">Please manually drive</string>
+    <string name="alarm_text_0x7d">Tire pressure insufficient, please replenish and reset promptly</string>
+    <string name="alarm_text_0x7e">Tire specification incompatible with vehicle, please replace with original tires</string>
+    <string name="alarm_text_0x7f">Tire pressure severely low, please immediately replenish and reset</string>
+    
+    <string name="alarm_text_0x80">Power battery level low, please drive gently</string>
+    <string name="alarm_text_0x81">Please press brake pedal when shifting gears</string>
+    <string name="alarm_text_0x82">Gear shifting speed too fast</string>
+    <string name="alarm_text_0x83">Please disconnect charging (discharging) gun before shifting gears</string>
+    <string name="alarm_text_0x84">Electric brake locked</string>
+    <string name="alarm_text_0x85">Electric brake released</string>
+    <string name="alarm_text_0x86">Gear shifting system failure</string>
+    <string name="alarm_text_0x87">VIN code incorrect</string>
+    <string name="alarm_text_0x88">Please close</string>
+    <string name="alarm_text_0x89">Vehicle approaching from behind, please be aware of rear-end collision risk</string>
+    <string name="alarm_text_0x90">Rear cross-traffic braking system activated</string>
+    <string name="alarm_text_0x91">Blind spot monitoring system failure</string>
+    <string name="alarm_text_0x92">Smart key not detected</string>
+    <string name="alarm_text_0x93">Smart key not detected</string>
+    <string name="alarm_text_0x94">Please shift to P or N gear to start</string>
+    <string name="alarm_text_0x95">Please press brake pedal to start</string>
+    <string name="alarm_text_0x96">Please shift to P gear</string>
+    <string name="alarm_text_0x97">Smart key battery low</string>
+    <string name="alarm_text_0x98">Please replenish brake fluid</string>
+    <string name="alarm_text_0x99">Battery level low, please start charging</string>
+    <string name="alarm_text_0xa0">Particulate filter full, please accelerate to clean</string>
+    <string name="alarm_text_0xa1">Particulate filter exceeds limit, please repair or replace immediately</string>
+    <string name="alarm_text_0xa2">Driving mode switching conditions not met</string>
+    <string name="alarm_text_0xa3">Key not detected</string>
+    <string name="alarm_text_0xa4">Smart key detected inside vehicle</string>
+    <string name="alarm_text_0xa5">Digital key system failure, please contact 4S store</string>
+
+
+    <string name="control_center">Control center</string>
+    <string name="no_recently_used_app">No recently used app</string>
+    <string name="vehicle_power_off">Power off\nvehicle</string>
+    <string name="switch_power_on">Please switch the power to ON position</string>
+    <string name="turn_p_gear">Please shift to P gear first</string>
+    <string name="brake_pedal_pressed">Please press the brake pedal first</string>
+    <string name="confirm_power_off_message">After power off, the entire vehicle power will be turned off; to restart, please press the brake; power off?</string>
+    <string name="ita_unused">Intelligent steering assist is temporarily unavailable</string>
+    <string name="ita_breakdown">Intelligent steering assist is faulty and temporarily unavailable</string>
+    <string name="manually_close">Cannot be closed through this switch, please manually close the fuel cap</string>
+    <string name="confirm_power_off">Please switch to P gear and power off the vehicle, then press the fuel cap switch to unlock. Do you need to power off?</string>
+    <string name="disclaimer_tips">Please ensure that the vehicle is under high pressure and the battery level is greater than 5%, and the brake pedal is not pressed. When the battery is low, the engine may start. Please use this function in an open and ventilated environment.</string>
+    <string name="disclaimer_title">Set the duration of on-site power protection</string>
+
+    <array name="disclaimer_time_list">
+        <item>Permanen</item>
+        <item>1-hour</item>
+        <item>2-hour</item>
+        <item>3-hour</item>
+        <item>4-hour</item>
+        <item>5-hour</item>
+        <item>6-hour</item>
+        <item>7-hour</item>
+        <item>8-hour</item>
+    </array>
+
+    <!-- quick_setttings -->
+    <string name="quick_setttings_brightness_bar">BRIGHTNESS</string>
+    <string name="quick_setttings_volume_bar">VOLUME</string>
+    <string name="quick_setttings_brightness_mode">MODE</string>
+    <!-- shortcut panel -->
+    <string name="shortcutpanel_avm">AVM</string>
+    <string name="shortcutpanel_parking_radar">Dynamic pattern</string>
+    <string name="shortcutpanel_auto_hold">AUTO HOLD</string>
+    <string name="shortcutpanel_auto_parking">AUTO PARKING</string>
+    <string name="shortcutpanel_ldw">LDW</string>
+    <string name="shortcutpanel_hill_decent_control">Hill Decent Control</string>
+    <string name="shortcutpanel_esc_off">ESC off</string>
+    <string name="shortcutpanel_screen_cleaning">Screen Cleaning</string>
+    <string name="shortcutpanel_rearview_mirror_adjustment">Rearview mirror adjustment</string>
+    <string name="shortcutpanel_elk">ELK</string>
+    <string name="shortcutpanel_screen_off">Screen Off</string>
+    <string name="shortcutpanel_epb_set">EPB Set</string>
+    <string name="shortcutpanel_fuel_filler">Fuel Filler</string>
+    <string name="shortcutpanel_reservation_charging">Reservation Charging</string>
+    <string name="shortcutpanel_center_lock">Center Lock</string>
+    <string name="shortcutpanel_window_lock">Window Lock</string>
+    <string name="driving_mode">Driving Mode</string>
+    <string name="eco">ECO</string>
+    <string name="normal">NORMAL</string>
+    <string name="sport">SPORT</string>
+    <string name="snow">SNOW</string>
+    <string name="sand">SAND</string>
+    <string name="mud">MUD</string>
+    <string name="off_road">OFF-ROAD</string>
+    <string name="light">Light</string>
+    <string name="dark">Dark</string>
+    <string name="auto">Auto</string>
+    <string name="lighting">lighting</string>
+    <string name="low_load_tip">The battery is low, and the comfort entertainment function enters energy-saving mode</string>
+    <!-- QUICK_CONTROL -->
+    <string name="text_quick_control">Quick Control</string>
+    <string name="text_quick_control_edit_complete">Complete</string>
+    <string name="text_quick_control_edit_remake">Remake</string>
+    <string name="text_quick_control_edit_cancel">Cancel</string>
+    
+    <string name="vehicle_quick_setting_wheel_buttons">Steering wheel button customization</string>
+    <string name="vehicle_quick_setting_wheel_buttons_1">AVM</string>
+    <string name="vehicle_quick_setting_wheel_buttons_2">Audio source switching</string>
+    <string name="vehicle_quick_setting_wheel_buttons_3">Interconnection switching</string>
+    <string name="vehicle_quick_setting_wheel_buttons_4">Exterior mirror adjustment</string>
+    <string name="vehicle_quick_setting_wheel_buttons_tips">Short press to activate the corresponding function, and long press to open this pop-up window</string>
+
+    <!-- 车辆模式 - 英文  -->
+    <string name="car_mode_normal">Normal Mode</string>
+    <string name="car_mode_factory">Factory Mode</string>
+    <string name="car_mode_transport">Transport Mode</string>
+    <string name="car_mode_dyno">Dyno Mode</string>
+    <string name="car_mode_crash">Crash Mode</string>
+    <string name="car_mode_factory_paused">Factory Paused</string>
+    <string name="car_mode_transport_paused">Transport Paused</string>
+
+    <string name="vehicle_light_low">Low</string>
+    <string name="vehicle_light_lower">Slightly Low</string>
+    <string name="vehicle_light_higher">Slightly higher</string>
+    <string name="vehicle_light_high">High</string>
+    <string name="wireless_charging">Wireless Charging</string>
+
+    <string-array name="wireless_charging_status">
+        <item>Charging Closed</item>
+        <item>No charging</item>
+        <item>Charging</item>
+        <item>Charging completed</item>
+        <item>Charging fault</item>
+    </string-array>
+
+    <string name="display_clean_tips">Press and hold for %1$d seconds to exit</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_shortcut_brightness_bar"
+    android:layout_width="244dp"
+    android:layout_height="70dp"
+    android:padding="10dp"
+    android:background="@drawable/shape_bg_shortcut_panel_button_nor2"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+
+    <ImageView
+        android:id="@+id/iv_brightness_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp40"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:src="@mipmap/ic_shortcut_brightness_icon"
+        tools:ignore="ContentDescription" />
+
+</LinearLayout>

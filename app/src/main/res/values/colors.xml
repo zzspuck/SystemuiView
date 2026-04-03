@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="activity_background">#F3F7FD</color>
+    <!-- SYSTEM BAR BG COLOR -->
+    <color name="navigation_bar_bg_color">#99000000</color>
+    <color name="status_bar_bg_color">#80000000</color>
+    <color name="wallpaper_bg_color">#FFF3F7FD</color>
+
+    <!-- SYSTEM BAR TEXT COLOR -->
+    <color name="text_color_status_bar">#FF232F3A</color>
+    <color name="bg_color_status_bar_end">#00EFF2FF</color>
+    <color name="bg_color_status_bar_start">#D9EFF2FF</color>
+
+    <!-- edge_panel_back -->
+    <color name="edge_panel_back_arrow_color">#475766</color>
+    <color name="edge_panel_back_panel_color_1">#F5F2F6FA</color>
+    <color name="edge_panel_back_panel_color_2">#EBEBF2FA</color>
+    <color name="edge_panel_back_panel_color_3">#EBEBF2FA</color>
+    <color name="edge_panel_back_panel_color_4">#EBEBF2FA</color>
+    <color name="edge_panel_back_panel_color_5">#00A1AAB3</color>
+
+    <color name="bg_color_transparent">@android:color/transparent</color>
+
+    <!--  System Status   -->
+    <color name="bg_color_system_status_item_divider">#1A000000</color>
+    <color name="bg_color_status_icon_ctm">#1A000000</color>
+
+    <!--  window_buttons TEXT  -->
+    <color name="text_color_base_sel">#FF2E88EE</color>
+    <color name="text_color_base_dis">#4D232F3A</color>
+    <color name="text_color_base_pre">#80232F3A</color>
+    <color name="text_color_base_nor">#FF232F3A</color>
+
+    <!---->
+    <color name="text_color_shortcut_seek_bar_title">#4C4D4E</color>
+    <color name="text_color_shortcut_buttons_title">#99FFFFFF</color>
+    <color name="text_color_side_bar_title">#FFF5F6FF</color>
+    <color name="text_color_side_bar_content">#FFF5F6FF</color>
+
+    <!-- SHORTCUT_PANEL -->
+    <!-- <color name="bg_color_shortcut_panel_window">#99FFFFFF</color>-->
+    <color name="bg_color_shortcut_panel_window">#EEC0C9D4</color>
+    <color name="bg_color_shortcut_panel_nor">#4DFFFFFF</color>
+    <color name="bg_color_shortcut_panel_sel">#FF3C93F7</color>
+    <!-- SHORTCUT_PANEL_BAR -->
+    <color name="bg_color_shortcut_panel_end">#FF242527</color>
+    <color name="bg_color_shortcut_panel_start">#FF242527</color>
+    <color name="bg_color_shortcut_bar_start">#FFA7A8A9</color>
+    <color name="bg_color_shortcut_bar_end">#FF979899</color>
+
+    <!--seek bar-->
+    <color name="bg_color_seek_bar_bg">#66FFFFFF</color>
+    <color name="bg_color_seek_bar_secondary_progress">#1AFFFFFF</color>
+    <color name="bg_color_seek_bar_thumb">#FFF5F6FF</color>
+    <color name="bg_color_seek_bar_thumb_enable">#66F5F6FF</color>
+    <color name="bg_start_color_seek_bar_drawable">#3173F5</color>
+    <color name="bg_start_color_seek_bar_drawable_enable">#663173F5</color>
+    <color name="bg_end_color_seek_bar_drawable">#447FF5</color>
+    <color name="bg_end_color_seek_bar_drawable_enable">#66447FF5</color>
+
+    <!-- Media Control -->
+    <color name="text_color_media_control_title">#FF242527</color>
+
+    <!-- HEADER -->
+    <color name="bg_color_status_seek_bar_progress_bg">#2F3134</color>
+    <color name="bg_color_status_seek_bar_progress">#FFFFFFFF</color>
+
+    <!-- Media more -->
+    <color name="bg_color_media_more_seek_bar_progress_bg">#1A000000</color>
+    <color name="bg_color_media_more_seek_bar_progress">#FFFFFFFF</color>
+
+    <!--THEME-->
+    <!--SHORTCUT PANEL-->
+    <color name="text_color_shortcut_panel">#FF000000</color>
+    <color name="text_color_shortcut_panel_volume">#FF232F3A</color>
+    <color name="bg_color_shortcut_seek_bar_progress_bg">#2F3134</color>
+    <color name="bg_color_shortcut_seek_bar_progress">#FFFFFFFF</color>
+
+    <!-- DIGITAL CLOCK -->
+    <color name="bg_digital_clock1_gradient_star">#CCFFFFFF</color>
+    <color name="bg_digital_clock1_gradient_end">#A622262E</color>
+    <color name="bg_digital_clock2_gradient_start">#E6F7B500</color>
+    <color name="bg_digital_clock2_gradient_end">#E632C5FF</color>
+    <color name="bg_digital_clock2_gradient_center">#E6B620E0</color>
+
+    <!-- ANALOG CLOCK -->
+    <color name="bg_analog_clock_dial">#E2E3EB</color>
+    <color name="bg_analog_clock_dial_stroke">#66F5F6FF</color>
+    <color name="bg_analog_clock_hand_hour">#FFFFFFFF</color>
+    <color name="bg_analog_clock_hand_minute">#FFFFFFFF</color>
+    <color name="bg_analog_clock_hand_second">#FFFFFFFF</color>
+    <color name="bg_analog_clock_hand_stroke">#66FFFFFF</color>
+    <!--
+    <color name="bg_analog_clock_hand_hour">#1E3BA6</color>
+    <color name="bg_analog_clock_hand_minute">#4164FB</color>
+    <color name="bg_analog_clock_hand_second">#6E1CFD</color>
+    <color name="bg_analog_clock_hand_stroke">#663377FF</color>
+    -->
+
+    <!-- AUDIO SOURCE -->
+    <color name="text_color_float_window">#FF232F3A</color>
+    <color name="bg_color_media_info_divider">#26232F3A</color>
+
+    <!-- DISCLAIMER -->
+    <color name="text_color_disclaimer_language">#FF0078FF</color>
+
+
+    <!-- HVAC BAR-->
+
+    <!-- TAB -->
+    <color name="text_color_tab_nor">#FF232F3A</color>
+    <color name="text_color_tab_sel">#FF0078FF</color>
+    <color name="text_color_tab_dis">#4D232F3A</color>
+
+    <!-- TEMP-->
+   <!-- <color name="text_color_temp_value_dis">#80232F3A</color>
+    <color name="text_color_temp_value_on">#FF232F3A</color>-->
+    <color name="text_color_temp_value_dis">#80FFFFFF</color>
+    <color name="text_color_temp_value_on">#FFFFFFFF</color>
+    <!-- WIND-->
+    <color name="text_color_wind_level_dis">#80232F3A</color>
+    <color name="text_color_wind_level_off">#FF232F3A</color>
+    <color name="text_color_wind_level_on">#0078FF</color>
+
+    <color name="bg_color_tick_marks_sel">#33232F3A</color>
+    <color name="bg_color_track_background">#8c9FA9B7</color>
+
+    <!-- USB device info bg -->
+    <color name="bg_color_usb_device_background">#FFEAEEF3</color>
+    <color name="bg_color_usb_device_item__background">#FFFFFFFF</color>
+
+    <!-- USB device info text color -->
+    <color name="bg_color_usb_device_text_color_sel">#FF000000</color>
+    <color name="bg_color_usb_device_text_color_dis">#4D000000</color>
+
+    <!-- System notification bg -->
+    <color name="bg_color_system_notification_background">#EAEEF3</color>
+    <color name="bg_color_system_notification_item__background">#FFFFFFFF</color>
+
+    <!-- System notification text color -->
+    <color name="bg_color_system_notification_text_color_sel">#FF000000</color>
+    <color name="bg_color_system_notification_text_color_dis">#4D000000</color>
+
+    <color name="select_tv">#000000</color>
+    <color name="unselect_tv">#7A000000</color>
+
+    <color name="notification_item__background">#FFFFFFFF</color>
+
+    <!-- System volume bg -->
+    <color name="bg_color_system_volume_background">#FFEAEEF3</color>
+
+    <color name="bg_color_delete_background">#FFE24F50</color>
+
+
+    <color name="volume_slider_mask_bg">#80000000</color>
+
+    <color name="recycle_scroll_bar_color">#D2D6DA</color>
+
+    <color name="notification_cycle_tips_color">#E94444</color>
+
+    <color name="high_light_bg">#FFFFFF</color>
+
+    <color name="bg_color_shortcut_display_white">#4DFFFFFF</color>
+    <color name="bg_color_shortcut_display_black">#1A000000</color>
+
+    <color name="bg_color_radio_button_sel">#FF3A77F0</color>
+
+    <color name="radio_group_bg">#FBFBFB</color>
+    <color name="radio_text">#FFFFFF</color>
+    <color name="text_selected">#FF3A77F0</color>
+    <color name="radio_text_def">@android:color/black</color>
+    <color name="level_text_color">#99000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="act_radio_text">#FF000000</color>
+    <color name="blue_dayblue">#0078FF</color>
+    <color name="dialog_bg">#FFEAEEF3</color>
+
+    <color name="driving_mode_sel_eco">#FF52B335</color>
+    <color name="driving_mode_sel_normal">#FF4295D0</color>
+    <color name="driving_mode_sel_sport">#FFC64F25</color>
+    <color name="driving_mode_sel_snow">#FFD58B46</color>
+    <color name="driving_mode_sel_mud">#FFA95D21</color>
+    <color name="driving_mode_sel_sand">#FFD0B33D</color>
+    <color name="driving_mode_sel_off_road">#FFD58B46</color>
+</resources>

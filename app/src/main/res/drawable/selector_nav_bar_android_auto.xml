@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@mipmap/ic_navi_bar_android_auto_dis" android:state_enabled="false" />
+    <item android:drawable="@mipmap/ic_navi_bar_android_auto_sel" android:state_selected="true" />
+    <item android:drawable="@mipmap/ic_navi_bar_android_auto_nor" />
+</selector>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@mipmap/ic_shortcut_desktop_mode_weather_dis" android:state_enabled="false" />
+    <item android:drawable="@mipmap/ic_shortcut_desktop_mode_weather_sel" android:state_selected="true" />
+    <item android:drawable="@mipmap/ic_shortcut_desktop_mode_weather_pre" android:state_pressed="true" />
+    <item android:drawable="@mipmap/ic_shortcut_desktop_mode_weather_nor" />
+</selector>

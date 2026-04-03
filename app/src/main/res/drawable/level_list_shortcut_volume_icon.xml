@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@mipmap/icon_shortcut_volume_dis"
+        android:maxLevel="0" />
+    <item
+        android:drawable="@mipmap/icon_shortcut_volume_mute"
+        android:maxLevel="1" />
+    <item
+        android:drawable="@mipmap/icon_shortcut_volume_media"
+        android:maxLevel="2" />
+    <item
+        android:drawable="@mipmap/icon_shortcut_volume_vr"
+        android:maxLevel="3" />
+    <item
+        android:drawable="@mipmap/icon_shortcut_volume_navi"
+        android:maxLevel="4" />
+    <item
+        android:drawable="@mipmap/icon_shortcut_volume_call"
+        android:maxLevel="5" />
+    <item
+        android:drawable="@mipmap/icon_shortcut_volume_ring"
+        android:maxLevel="6" />
+    <item
+        android:drawable="@mipmap/icon_shortcut_volume_keytone"
+        android:maxLevel="7" />
+
+</level-list>
